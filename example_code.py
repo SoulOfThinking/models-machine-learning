@@ -28,4 +28,3 @@ plt.subplot(336), plt.imshow(log_shift2center, 'gray'), plt.title('log_shift2cen
 # plt.show()
 plt.savefig('output_test.jpg')
 plt.show('out.jpg')
-；发电房
