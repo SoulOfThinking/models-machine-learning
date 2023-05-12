@@ -1,6 +1,7 @@
 import math
 
-class Rectangle():
+class Rectangle(object):
+
 
       def __init__(self, length, width):
           self.length = length
@@ -21,6 +22,8 @@ class Rectangle():
       def GetArea(self):
           return (self.length * self.width)
 
-r = Rectangle(4,2)
+r = Rectangle(6,7)
+r.ShowLength()
 r.SetLength(6)
 r.ShowLength()
+print(r.GetArea())
